@@ -1,0 +1,15 @@
+n = 10;
+
+a = 0;
+b = 1;
+if (n == 0) {
+    print a;
+} else {
+    while (n > 1) {
+        next_fib = a + b;
+        a = b;
+        b = next_fib;
+        n = n - 1;
+    }
+    print b;
+}
